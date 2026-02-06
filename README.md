@@ -129,19 +129,6 @@ Controllers → Logic
 ✔ Recruiter Friendly
 Shows you understand real production project design, not beginner structure.
 
-✔ Scalable
-You can easily add:
-
-Payment integration
-
-Admin panel
-
-Search system
-
-Booking feature
-
-without restructuring the project.
-
 # 🌱 Future Enhancements
 
 🔎 Smart search with filters
