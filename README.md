@@ -50,7 +50,7 @@ Map integration (Mapbox / Leaflet)
 
 Passport.js (authentication)
 
-# 📁 Folder Structure
+📁 Folder Structure
 wanderlust/
 │
 ├── models/                # Database schemas (Mongoose models)
