@@ -49,3 +49,113 @@ Cloudinary (image storage)
 Map integration (Mapbox / Leaflet)
 
 Passport.js (authentication)
+
+# 📁 Folder Structure
+wanderlust/
+│
+├── models/                # Database schemas (Mongoose models)
+│   ├── listing.js
+│   ├── review.js
+│   └── user.js
+│
+├── views/                 # EJS templates (Frontend)
+│   ├── layouts/
+│   │     └── boilerplate.ejs
+│   │
+│   ├── listings/
+│   │     ├── index.ejs
+│   │     ├── show.ejs
+│   │     ├── new.ejs
+│   │     └── edit.ejs
+│   │
+│   ├── users/
+│   │     ├── signup.ejs
+│   │     └── login.ejs
+│   │
+│   └── includes/
+│         ├── navbar.ejs
+│         └── footer.ejs
+│
+├── routes/                # Express routes
+│   ├── listing.js
+│   ├── review.js
+│   └── user.js
+│
+├── controllers/          # Business logic (keeps routes clean)
+│   ├── listings.js
+│   ├── reviews.js
+│   └── users.js
+│
+├── middleware/           # Custom middleware
+│   ├── auth.js           # Authentication checks
+│   └── validate.js       # Schema validation
+│
+├── public/               # Static files
+│   ├── css/
+│   ├── js/
+│   │    └── map.js
+│   └── images/
+│
+├── utils/                # Utility functions
+│   ├── ExpressError.js
+│   └── wrapAsync.js
+│
+├── config/               # Configuration files
+│   ├── db.js             # Database connection
+│   ├── cloudinary.js
+│   └── passport.js
+│
+├── .env                  # Environment variables
+├── .gitignore
+├── package.json
+├── app.js                # Main application entry point
+└── README.md
+
+# ✅ Why This Structure is Good
+
+✔ Separation of Concerns
+Each folder has one responsibility → easier debugging & scaling.
+
+✔ MVC Architecture
+
+Models → Data
+
+Views → UI
+
+Controllers → Logic
+
+✔ Recruiter Friendly
+Shows you understand real production project design, not beginner structure.
+
+✔ Scalable
+You can easily add:
+
+Payment integration
+
+Admin panel
+
+Search system
+
+Booking feature
+
+without restructuring the project.
+
+# 🌱 Future Enhancements
+
+🔎 Smart search with filters
+
+❤️ Wishlist functionality
+
+💳 Online booking & payments
+
+🧑‍💼 Admin dashboard
+
+🌐 Google OAuth login
+
+📊 Analytics
+
+# ✅ Conclusion
+
+Wanderlust is a production-inspired full-stack web application that demonstrates my ability to design and develop scalable, secure, and user-centric platforms. Through this project, I have applied industry best practices such as MVC architecture, RESTful routing, authentication, and cloud integrations to build a seamless digital experience.
+
+This project reflects my continuous commitment to learning, problem-solving, and building real-world applications that create meaningful impact. As I grow as a developer, I look forward to enhancing Wanderlust with more advanced features and performance optimizations.
