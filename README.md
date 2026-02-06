@@ -16,8 +16,6 @@ Built with modern web technologies, Wanderlust focuses on clean UI, secure authe
 
 💬 Reviews & Ratings – Users can share feedback and rate destinations.
 
-⚡ Responsive Design – Works smoothly on desktop and mobile devices.
-
 # 🛠️ Tech Stack
 
 ## Frontend:
