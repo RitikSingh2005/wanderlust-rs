@@ -50,7 +50,9 @@ Map integration (Mapbox / Leaflet)
 
 Passport.js (authentication)
 
-📁 Folder Structure
+# 📁 Folder Structure
+
+```bash
 wanderlust/
 │
 ├── models/                # Database schemas (Mongoose models)
@@ -76,40 +78,42 @@ wanderlust/
 │         ├── navbar.ejs
 │         └── footer.ejs
 │
-├── routes/                # Express routes
+├── routes/
 │   ├── listing.js
 │   ├── review.js
 │   └── user.js
 │
-├── controllers/          # Business logic (keeps routes clean)
+├── controllers/
 │   ├── listings.js
 │   ├── reviews.js
 │   └── users.js
 │
-├── middleware/           # Custom middleware
-│   ├── auth.js           # Authentication checks
-│   └── validate.js       # Schema validation
+├── middleware/
+│   ├── auth.js
+│   └── validate.js
 │
-├── public/               # Static files
+├── public/
 │   ├── css/
 │   ├── js/
 │   │    └── map.js
 │   └── images/
 │
-├── utils/                # Utility functions
+├── utils/
 │   ├── ExpressError.js
 │   └── wrapAsync.js
 │
-├── config/               # Configuration files
-│   ├── db.js             # Database connection
+├── config/
+│   ├── db.js
 │   ├── cloudinary.js
 │   └── passport.js
 │
-├── .env                  # Environment variables
+├── .env
 ├── .gitignore
 ├── package.json
-├── app.js                # Main application entry point
+├── app.js
 └── README.md
+```
+
 
 # ✅ Why This Structure is Good
 
